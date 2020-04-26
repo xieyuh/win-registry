@@ -1,0 +1,22 @@
+{
+  "name": "windows-registry",
+  "version": "0.0.1",
+  "description": "A native node module for accessing the windows registry",
+  "os": [
+    "win32"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "author": "xieyuh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.2",
+    "mocha": "^7.1.2",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}
