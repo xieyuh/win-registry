@@ -1,5 +1,5 @@
 {
-  "name": "windows-registry",
+  "name": "win-registry",
   "version": "0.0.1",
   "description": "A native node module for accessing the windows registry",
   "os": [
@@ -21,10 +21,10 @@
   "author": "xieyuh",
   "license": "MIT",
   "devDependencies": {
-    "@types/mocha": "^7.0.2",
-    "@types/node": "^13.13.2",
-    "mocha": "^7.1.2",
-    "ts-node": "^8.9.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.9.4",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.0.2",
     "typescript": "^3.8.3"
   }
 }
