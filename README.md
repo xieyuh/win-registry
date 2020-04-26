@@ -4,13 +4,13 @@ This module only has what is needed to support VS Code and is intended to be a l
 ## Installing
 
 ```sh
-npm install vscode-windows-registry
+npm install windows-registry
 ```
 
 ## Using
 
 ```javascript
-var vsWinReg = require('vscode-windows-registry');
+var vsWinReg = require('windows-registry');
 console.log(vsWinReg.GetStringRegKey('HKEY_LOCAL_MACHINE', 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion', 'ProgramFilesPath');
 ```
 

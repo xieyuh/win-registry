@@ -10,6 +10,14 @@
   "scripts": {
     "test": "mocha -r ts-node/register test/**/*.test.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/xieyuh/windows-registry.git"
+  },
+  "bugs": {
+    "url": "https://https://github.com/xieyuh/windows-registry/issues"
+  },
+  "homepage": "https://github.com/xieyuh/windows-registry/blob/master/README.md",
   "author": "xieyuh",
   "license": "MIT",
   "devDependencies": {
