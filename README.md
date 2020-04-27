@@ -1,17 +1,17 @@
-# Native node module to access the Windows Registry
-This module only has what is needed to support VS Code and is intended to be a lightweight module.
+# Native node module to access or write the Windows Registry
 
 ## Installing
 
 ```sh
-npm install windows-registry
+npm install win-registry
 ```
 
 ## Using
 
 ```javascript
-var vsWinReg = require('windows-registry');
-console.log(vsWinReg.GetStringRegKey('HKEY_LOCAL_MACHINE', 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion', 'ProgramFilesPath');
+var winReg = require('win-registry');
+console.log(winReg.GetStringRegKey('HKEY_LOCAL_MACHINE', 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion', 'ProgramFilesPath');
+winReg.SetStringRegKey('HKEY_LOCAL_MACHINE', 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion', 'value');
 ```
 
 ## Development
