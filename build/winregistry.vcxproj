@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9A71E84B-1004-B136-0FFD-ED9E79236346}</ProjectGuid>
+    <ProjectGuid>{D62873B2-BA83-60A1-888B-5CBD9BB27A0D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>winregistry</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

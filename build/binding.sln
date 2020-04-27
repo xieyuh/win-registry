@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winregistry", "winregistry.vcxproj", "{9A71E84B-1004-B136-0FFD-ED9E79236346}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winregistry", "winregistry.vcxproj", "{D62873B2-BA83-60A1-888B-5CBD9BB27A0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +8,10 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A71E84B-1004-B136-0FFD-ED9E79236346}.Debug|x64.ActiveCfg = Debug|x64
-		{9A71E84B-1004-B136-0FFD-ED9E79236346}.Debug|x64.Build.0 = Debug|x64
-		{9A71E84B-1004-B136-0FFD-ED9E79236346}.Release|x64.ActiveCfg = Release|x64
-		{9A71E84B-1004-B136-0FFD-ED9E79236346}.Release|x64.Build.0 = Release|x64
+		{D62873B2-BA83-60A1-888B-5CBD9BB27A0D}.Debug|x64.ActiveCfg = Debug|x64
+		{D62873B2-BA83-60A1-888B-5CBD9BB27A0D}.Debug|x64.Build.0 = Debug|x64
+		{D62873B2-BA83-60A1-888B-5CBD9BB27A0D}.Release|x64.ActiveCfg = Release|x64
+		{D62873B2-BA83-60A1-888B-5CBD9BB27A0D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
