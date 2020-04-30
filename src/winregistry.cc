@@ -80,7 +80,7 @@ napi_value GetStringRegKey(napi_env env, napi_callback_info info) {
   std::string result;
 
   HKEY hKey;
-  if (ERROR_SUCCESS != RegOpenKeyEx(hive, path.c_str(), 0, KEY_READ, &hKey)) {
+  if (ERROR_SUCCESS != RegOpenKeyEx(hive, path.c_str(), 0, KEY_ALL_ACCESS | KEY_WOW64_64KEY, &hKey)) {
     //napi_throw_error(env, nullptr, "Unable to open registry key");
     return nullptr;
   }
